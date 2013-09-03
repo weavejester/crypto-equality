@@ -3,6 +3,9 @@
 A very small Clojure library for protecting against
 [timing attacks][1] when comparing strings or sequences of bytes.
 
+This is useful for comparing user-supplied values against secrets held
+by the application, such as tokens or keys.
+
 [1]: https://en.wikipedia.org/wiki/Timing_attack
 
 ## Installation
