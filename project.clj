@@ -1,4 +1,4 @@
-(defproject crypto-equality "0.1.0-SNAPSHOT"
+(defproject crypto-equality "0.1.0"
   :description "Securely check equality of strings or byte sequences"
   :url "https://github.com/weavejester/crypto-equality"
   :license {:name "Eclipse Public License"

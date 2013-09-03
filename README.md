@@ -9,7 +9,7 @@ A very small Clojure library for protecting against
 
 Add the following dependency to your `project.clj` file:
 
-    [crypto-equality "0.1.0-SNAPSHOT"]
+    [crypto-equality "0.1.0"]
 
 ## Usage
 
