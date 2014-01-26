@@ -12,7 +12,7 @@ by the application, such as tokens or keys.
 
 Add the following dependency to your `project.clj` file:
 
-    [crypto-equality "0.1.0"]
+    [crypto-equality "1.0.0"]
 
 ## Usage
 
