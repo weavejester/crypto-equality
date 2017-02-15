@@ -16,7 +16,8 @@
     (is (eq? "foo" "foo"))
     (is (eq? [1 2 3] [1 2 3]))
     (let [xs (take 1000 (repeatedly #(rand-int 1000000)))]
-      (is (eq? (vec xs) (vec xs)))))
+      (is (eq? (vec xs) (vec xs))))
+    (is (eq? "" "")))
   (testing "inequality"
     (is (not (eq? "foo" "bar")))
     (is (not (eq? "foo" "foob")))
