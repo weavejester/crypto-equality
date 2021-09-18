@@ -32,4 +32,8 @@
                         (+ t0 (time-expr (eq? xs ys)))
                         (+ t1 (time-expr (eq? xs zs))))
                  [t0 t1]))]
-      (is (approx-eq (ts 0) (ts 1) 0.2)))))
+      (is (approx-eq (ts 0) (ts 1) 0.2))))
+  (testing "zero-length strings"
+    (is (eq? "" ""))
+    (is (not (eq? "foo" "")))
+    (is (not (eq? "" "foo")))))
