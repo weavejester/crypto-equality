@@ -32,6 +32,6 @@ ordered sequence of integers.
 
 ## License
 
-Copyright © 2014 James Reeves
+Copyright © 2021 James Reeves
 
 Distributed under the Eclipse Public License, the same as Clojure.
